@@ -1,2 +1,5 @@
 dnhsuhdsoufhouf
 ## command + s 保存
+
+##要是在原文件上更改 并更新 更改完 command + s 保存 
+## 右键 team-commit
