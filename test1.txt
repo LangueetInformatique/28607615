@@ -3,3 +3,10 @@ dnhsuhdsoufhouf
 
 ##要是在原文件上更改 并更新 更改完 command + s 保存 
 ## 右键 team-commit
+##在共同文件上 想刷新 最新版本 请看
+##结束！
+
+##每次有更改都需要 在28607615 右键 team-pull 
+
+#演示 删除文件
+#保存了test1
