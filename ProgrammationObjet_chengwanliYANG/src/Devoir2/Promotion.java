@@ -5,11 +5,13 @@ import Devoir2.Etudiant;
 
 public class Promotion {
 	String nom, annee;
+	List<Etudiant> liste_etudiant;
 	
-	public Promotion(String nom_promo, String annee_promo) {
+	public Promotion(String nom_promo, String annee_promo, List<Etudiant> LE) {
 	
 		this.nom=nom_promo;
 		this.annee=annee_promo;
+		this.liste_etudiant=LE;
 	}
 	
 	public void setNom(String nomPromo) {
@@ -25,6 +27,12 @@ public class Promotion {
 	public String getAnnee() {
 		return annee;
 	}
+	public void setliste_Etudiant(List<Etudiant> Liste_etudiant) {	
+		this.liste_etudiant=Liste_etudiant;
+	}
+	public List<Etudiant> liste_Etudian() {
+		return liste_etudiant;
+	}
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -33,5 +41,7 @@ public class Promotion {
 		
 		System.out.print("Annee de promotion：");
 		String anneepro = input.next();
+	
 	}
 }
+
