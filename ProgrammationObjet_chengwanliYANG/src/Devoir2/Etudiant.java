@@ -19,6 +19,6 @@ public class Etudiant {
 		this.prenom = prenom;
 		this.numeroEtudiant = numero;
 		
+	
 	}
-
 }
