@@ -1,4 +1,4 @@
-package Devoirs;
+package Devoir1;
 
 public class devoir1 {      
 
