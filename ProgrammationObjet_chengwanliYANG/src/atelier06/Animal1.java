@@ -1,7 +1,7 @@
 package atelier06;
 
 /** Creation et gestion d'animaux */
-public abstract class Animal {
+public abstract class Animal1 {
 	private String espece;
 	private int nb_pattes = 0;
 
@@ -11,7 +11,7 @@ public abstract class Animal {
 	 * @param type   nom de l'espece
 	 * @param pattes nombre de pattes
 	 */
-	public Animal(String type, int pattes) {
+	public Animal1(String type, int pattes) {
 		espece = type;
 		nb_pattes = pattes;
 	}

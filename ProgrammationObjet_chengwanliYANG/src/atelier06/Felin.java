@@ -1,7 +1,7 @@
 package atelier06;
 
 /** Creation et gestion de felins */
-public class Felin extends Animal {
+public class Felin extends Animal1 {
 // ajout d'attributs propres a la sous-classe
 	protected boolean domestique = false;
 
