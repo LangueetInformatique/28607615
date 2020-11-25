@@ -46,7 +46,7 @@ public class Calendar2 extends GregorianCalendar {
  public boolean getCours() {
 		return cours;
 	}
- protected void computeFields() {
+ public void computeFields() {
 		
 	}	
  }
