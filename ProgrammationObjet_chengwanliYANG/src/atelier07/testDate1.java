@@ -1,5 +1,5 @@
 package atelier07;
-
+import java.util.*;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -46,7 +46,7 @@ public class testDate1 {
 		System.out.println(heure+":"+minute+":"+seconde);
 		
 		System.out.print(Calendar.DAY_OF_WEEK);
-		
+		Locale.setDefault(Locale.FRANCE);
 		
 
 	}
