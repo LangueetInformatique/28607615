@@ -22,7 +22,6 @@ public class testJTextComponent {
 		 p.add(jtf);
 		 
 		 
-//			Affichage de la JFrame et de son contenu
 		 
 		 
 		 
@@ -30,6 +29,7 @@ public class testJTextComponent {
 		 StyleConstants.setForeground(s, Color.blue); 
 		 StyleConstants.setFontSize(s, 22); 
 		 StyleConstants.setBold(s, true);
+		 //setItalic(Style s, boolean b);
 		 
 		 fen.setVisible(true);
 		 
