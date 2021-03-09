@@ -1,0 +1,4 @@
+a) lire le texte -> int n=0, un regex "e" pour trouver la lettre "e" dans le texte ->tant qu'on trouve "e", n+1 -> renvoyer n à la fin.
+b) « ebebeahabe bee ebah »: il y a 7 "e".
+d) créer un dictionnaire, des clés sont 0-255, des valeurs sont des caractères d'ascci, par exemple clé 0 pour valeur A, 1 pour B.
+f) peut-être on peux ajouter un argument pour la fonction dic, "char numero", ainsi, on pourra définir la position ou le numéro de chauqe caractère d'ascii

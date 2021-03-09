@@ -1,0 +1,6 @@
+a) méthode 1: 22 tokens, 'Madame', 'de', 'Hautcastel', 'arrangea', 'commodément', 'sa', 'jolie', 'tête', 'sur', 'le', 'dossier',  'son', 'fauteuil;', 'chacun', 'fit', 'silence', 'et', 'baron', 'parla', 'en', 'ces', 'termes:'
+   méthode 2: 24 tokens, 'Madame', 'de', 'Hautcastel', 'arrangea', 'commod', 'ment', 'sa', 'jolie', 't', 'te', 'sur', 'le', 'dossier', 'son', 'fauteuil', 'chacun', 'fit', 'silence', 'et', 'baron', 'parla', 'en', 'ces', 'termes'
+b) ouvrir le fichier -> lire le texte par la caractère -> quand on lit une espace (" "), on la sépare comme un token -> sinon, on continue à lire -> jusqu'à la fin du texte
+c) avec la méthode 1: 6 tokens: 'hello,', 'le', 'soleil', 'brille,', 'brille', 'aujourd’hui…'
+   avec la méthode 2: 6 tokens: 'hello', 'le', 'soleil', 'brille', 'aujourd', 'hui'
+d) le mot « tête » en utf-8 est séparé en 2 tokens ('t' et 'te'), pour la caractère séciaple, la médothe 2 ne prend pas en compte.
